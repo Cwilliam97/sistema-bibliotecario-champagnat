@@ -1,0 +1,73 @@
+/* 
+    Document   : formularioActualizar
+    Created on : 22-ago-2016, 10:04:26
+    Author     : William
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.tittle-register{
+    color: #fff;
+    text-align: center;
+}
+
+.form-register-creador{
+    top: 200px;
+    width: 95%;
+    background: white;
+    max-width: 500px;
+    margin:20px auto;
+    margin-bottom: 35px;
+    box-shadow:2px 2px 100px #242c38;
+    border-radius: 7px;
+}
+
+.tittle-creacuenta{
+    background: #72BD2C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid deepskyblue;
+}
+
+.container-input-register{
+    padding: 10px 30px;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    justify-content: space-between;;
+}
+
+input{
+    border-radius: 50px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid darkgray;
+}
+
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: #0F97BD;
+    color: #fff;
+    margin: auto;
+    padding: 15px;
+    width: 70%;
+    transition: all .5s ease;
+}
+
+.btn-enviar:hover{
+    background: #72BD2C;	
+    color: white;
+}

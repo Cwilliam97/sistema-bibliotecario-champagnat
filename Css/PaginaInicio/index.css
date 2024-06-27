@@ -1,0 +1,222 @@
+/* 
+    Document   : index
+    Created on : 02-ago-2016, 8:20:40
+    Author     : William
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+    Encabezado header
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /*-webkit-box-sizing: border-box;*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+a {
+    color: #242c38;
+    text-decoration: none;
+}
+
+
+
+body{
+    background-image: url(../../Recursos/Imagenes/fondo.jpg);
+    font-family: 'Roboto', Arial, Tahoma, Sans-serif, Verdana, Helvetica;
+    font-size: 62.5%;
+    background-size: 200px;
+}
+
+.logo1{
+    position: absolute;
+    left: 9%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    background: transparent;
+    background-image: url(../../Recursos/Imagenes/champagnat1.png);
+    background-size: 150px;
+}
+.logo2{
+    position: absolute;
+    right: 9%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    background: transparent;
+    background-image: url(../../Recursos/Imagenes/champagnat2.png);
+    background-size: 160px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-header{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    z-index: 14;
+    background-color: transparent;
+}
+
+/**
+ * Container Botones
+ ----------------------------------------*/
+.container-botones{
+    position: relative;
+    left: 37%;
+    display:flex;
+    padding: 16px 12px;
+    background-color: transparent;
+    height: 80px;
+    width: 290px;
+}
+
+/**
+ * Header Botones de registrar
+ ----------------------------------------*/
+
+.btn-ingresar{
+    position: relative;
+    float: left;
+    padding: 15px 30px;
+    line-height: 11px;
+    border: 3px solid #0F97BD;
+    background-color: #FFF;
+    border-radius: 100px;
+}
+
+
+.opcion{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(255,255,255,0.9);
+    z-index: 100;
+    top: 107%;
+    left: -6%;
+    display: none;
+}
+
+.btn-registrar{
+    position: relative;
+    left: 30px;
+    float: left;
+    padding: 15px 30px;
+    line-height: 11px;
+    border: 3px solid #0F97BD;
+    background-color: #FFF;
+    border-radius: 100px;
+}
+
+.a-btn{
+    font-size: 15px;
+    font-weight: bold;
+    color: #0F97BD;
+}
+
+/**
+ * Contendor del Slider
+ ----------------------------------------*/
+
+.slider-container{
+    margin:  0px auto;
+    width: 100%;
+    height: 80vh;
+    z-index: 2;
+}
+
+.slider-wrapper{
+    position: relative;
+    z-index: 90;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.slider-wrapper li{
+    display: none;
+}
+
+li.slide-current{
+    display: block;
+}
+
+.slider-wrapper li img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 12px;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.caption-title{
+    color: #00c5b9;
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.caption p{
+    color: #FFF;
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+
+/**
+ * Controles del Slider
+ ----------------------------------------
+*/.slider-controls {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.slider-controls li {
+    background: #72BD2C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.slider-controls li.active {
+    background: #0F97BD;	
+}
+
+.authors{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: #242c38;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+

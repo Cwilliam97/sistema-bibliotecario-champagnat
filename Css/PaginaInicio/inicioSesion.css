@@ -1,0 +1,64 @@
+/* 
+    Document   : inicioSesion
+    Created on : 08-ago-2016, 8:08:27
+    Author     : William
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#tablaComenzar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: -1000;
+    transition: all .5s ease-in-out;
+}
+
+#tablaComenzar.show{
+    z-index: 1000;
+    background-color: rgba(255,255,255,0.9);
+    transition: all .5s ease-in-out;
+}
+
+#tablaDinamica{
+    transition: all .5s ease-in-out;
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 10% auto;
+    width: 600px;
+    padding: 30px;
+    top: -600px;
+    opacity: 0;
+}
+
+#tablaComenzar.show #tablaDinamica{
+    top:0px;
+    opacity: 1;
+}
+
+#cerrarComenzar{
+   text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 35px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top:17px;
+    right:30px;
+    background: #0F97BD;
+    cursor: pointer;
+}
+
+#data{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+

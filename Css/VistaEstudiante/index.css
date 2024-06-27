@@ -1,0 +1,35 @@
+/* 
+    Document   : index
+    Created on : 02-ago-2016, 8:20:40
+    Author     : William
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+    Encabezado header
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /*-webkit-box-sizing: border-box;*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+a {
+    color: #242c38;
+    text-decoration: none;
+
+}
+
+body{
+    background-image: url(../../Recursos/Imagenes/fondo.jpg);
+    font-family: 'Roboto', Arial, Tahoma, Sans-serif, Verdana, Helvetica;
+    font-size: 62.5%;
+    background-size: 100px;
+}
+
+

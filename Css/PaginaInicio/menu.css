@@ -1,0 +1,130 @@
+/* 
+    Document   : menu
+    Created on : 02-ago-2016, 15:40:28
+    Author     : William
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.header-menu{    
+   width: 100%;
+   background: #0F97BD;
+   
+}
+#btn-menu{
+    display: none;
+}
+.header-menu label{
+    display: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    
+}
+.header-menu label:hover{
+    cursor: pointer;
+    background: #0F97BD;
+}
+
+.menu .menu-ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .menu-li:hover{
+     background:#fff;   
+}
+
+.menu .menu-li a:hover{
+    color: #0F97BD; 
+}
+
+
+.menu .menu-li a{
+    font-weight: bold;
+    font-family: 'Roboto', Arial, Tahoma, Sans-serif, Verdana, Helvetica;
+    font-size: 15px;
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+/*Submenus*/
+
+.menu .menu-li .menu-ul-submenu{
+    background: #0F97BD;
+    padding: 5px 10px;
+    color: #fff;
+}
+.menu .menu-li .menu-ul-submenu-2{
+    background: #0F97BD;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+
+.menu .menu-li .menu-ul-submenu .menu-li-submenu:hover{
+     border-bottom:3px solid #fff;
+}
+
+.menu .menu-li .menu-ul-submenu-2 .menu-li-submenu-2:hover{
+     border-bottom:3px solid #fff;
+}
+
+.menu .menu-li .menu-ul-submenu-2{
+    z-index: 2000;
+   display: none;
+    top: 67%;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu .menu-li .menu-ul-submenu{
+    z-index: 2000;
+   display: none;
+    top: 60%;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu .menu-li .a-submenu:hover{
+    color: #fff; 
+}
+
+.menu .menu-li:hover > .menu-ul-submenu{
+    display: block;
+}
+
+.menu .menu-li:hover > .menu-ul-submenu-2{
+    display: block;
+}
+
+@media (max-width:768px){
+    .header-menu label{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background: #fff;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s
+    } 
+    .menu .menu-li .menu-ul-submenu{
+            display:block;
+            position: absolute;
+    }
+    .menu .menu-ul{
+     flex-direction: column;   
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+   
+}
+
+
+

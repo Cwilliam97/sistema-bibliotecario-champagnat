@@ -1,0 +1,156 @@
+/**
+     * Fondo: #242c38
+     * Gris Claro: #415066
+     * Verde Azulado: #00c5b9
+     * AZUL - #0F97BD
+     * VERDE - #72BD2C
+     ----------------------------------------*/
+
+
+
+
+
+/*** Table Styles **/
+
+.table-fill{
+    background: #0F97BD;
+    border-radius:3px;
+    border-collapse: collapse;
+    /*height: 320px;*/
+    margin: auto;
+    max-width: 400px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+    
+/*   width: 1346px;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;  
+   position: absolute;
+   top: 30px;
+   right: 0px; 
+   left: 0px; 
+   height: 40px;
+  */
+
+}
+
+th {
+    color:white;
+    background:#72BD2C;
+    border-bottom:4px solid #0F97BD;
+    border-right: 1px solid #72BD2C;
+    font-size:15px;
+    font-weight: 100;
+    padding:15px 20px;
+    text-align:center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+th:first-child {
+    border-top-left-radius:3px;
+}
+
+th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+    border-bottom: 1px solid #22262e;
+}
+
+tr:first-child {
+    border-top:none;
+}
+
+tr:last-child {
+    border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+    background:#f0f0f0;
+}
+
+tr:nth-child(odd):hover td {
+    background:#4E5066;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+}
+
+td {
+    background:#FFFFFF;
+    padding:5px 25px;
+    text-align:center;
+
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: center;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: center;
+}
+
+td.text-left {
+    text-align: center;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: center;
+}
+
+/*#example_wrapper{
+   margin-top: 4em;
+   font-size: 13px;
+}
+#example_filter{
+   margin-top: -5px;
+}
+
+div#example_info, #TableProyecto_paginate{
+    margin-top: 3em;
+   font-size: 13px;
+}
+div.dataTables_paginate, paging_full_numbers{
+    margin-top: 2em;
+   font-size: 13px;
+}*/

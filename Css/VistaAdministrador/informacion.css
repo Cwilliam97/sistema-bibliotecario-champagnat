@@ -1,0 +1,78 @@
+
+#informacion{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#informacion .contenedor-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#deaf-info-libro{
+     width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #0F97BD;
+    border:7px solid #fff; 
+    background-image: url(../../Recursos/Imagenes/VistaBibliotecario/libros.png);
+    background-position: 30px 27px;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+#deaf-info-prestamo{
+     width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #0F97BD;
+    border:7px solid #fff; 
+    background-image: url(../../Recursos/Imagenes/VistaBibliotecario/prestamo.png);
+    background-position: 30px 27px;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+#deaf-info-devolucion{
+  
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #0F97BD;
+    border:7px solid #fff; 
+    background-image: url(../../Recursos/Imagenes/VistaBibliotecario/devolucion.png);
+    background-position: 38px 42px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+#deaf-info-libro h4 {
+    position: relative;
+    font-size: 17px;
+    margin-top: 109%;
+    
+}
+#deaf-info-prestamo h4 {
+    position: relative;
+    font-size: 17px;
+    margin-top: 109%;
+    
+}
+#deaf-info-devolucion h4 {
+    position: relative;
+    font-size: 17px;
+    margin-top: 109%;
+    
+}
+
+.authors{
+    margin-bottom: 15px;
+    margin-top: 25px;
+    color: #242c38;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}

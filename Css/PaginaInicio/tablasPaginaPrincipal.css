@@ -1,0 +1,99 @@
+/* 
+    Document   : tablasPaginaPrincipal
+    Created on : 08-ago-2016, 8:45:29
+    Author     : William
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+/*Estilos tanto para tabla
+de inicio de sesion como
+para registrarse*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+.title-register{
+    color: #fff;
+    text-align: center;
+}
+
+.form_register{
+    width: 95%;
+    background: #e9e9e9;
+    max-width: 500px;
+    margin: auto;
+    box-shadow:2px 2px 50px #1919DD;
+    border-radius: 7px;
+
+}
+
+#title-creacuenta{
+    background: #0A9906;
+    color: #fff;
+    padding: 20px;
+    text-align: center;;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid deepskyblue;
+}
+
+.container-input-register{
+    padding: 10px 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    border-radius: 50px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+input:focus{
+    outline: 0px;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: #0F97BD;
+    color: #fff;
+    margin: auto;
+    padding: 15px;
+    width: 70%;
+    transition: all .5s ease;
+}
+
+.btn-enviar:hover{
+    background: #0A9906;	
+    color: white;
+}
+
+.form-link {
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-link a{
+    color:#0F97BD; 
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
